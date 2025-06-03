@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">Stark Industries</h2>
+          <style>
+            h2 {
+                text-decoration: underline;
+            }
+          </style>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Service</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+    <main>
+      
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Stark Inovations</h2>
+            <h3 class="subtitle">Changing the World for a Better Future!</h3>
+            <p class="description">Stark Industries was founded by Howard Stark in 1939, a great pioneer in different types of technology and constantly assisted the United States Armed Forces with different and innovative weapons, 
+                helping the government to develop the Project Rebirth in the 1940s.
+                Under the leadership of Howard Stark, Stark Industries also started the Stark Expo, also known as the World Exposition of Tomorrow, an exposition located in New York City,
+                bringing together great minds and showcasing new technology.</p>
+            <div class="buttons">
+              
+              <a href="#contact" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="image.01.jpg" alt="Coffee" class="hero-image" height="100%" width="200%" />
+          </div>
+        </div>
+      </section>
+      
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="stark.logo.jpg" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">Stark Industries is a multinational industrial company and the largest tech conglomerate in the world. Founded in 1939 by Howard Stark, the elder Stark ran the company from its inception up until his death in 1991, 
+            after which Obadiah Stane was appointed interim CEO, with Tony Stark officially assuming the position shortly after at the age of twenty-one.
+            Under Stark's control, the company flourished financially for nearly two decades; however, when Stark discovered that Stane was selling their weapons to terrorist groups around the world, 
+            such as the Ten Rings, he shut down their lucrative weapons division.Stark further developed his armor to create new models, such as the <b>Iron Man Armor: Mark III</b> and started looking for and destroying stolen Stark tech, which he later discovered Obadiah Stane was selling behind his back. 
+            Stark faced Stane, who had created his own suit of armor, and defeated him in battle at the Stark Industries Headquarters.
+             In 2010, Stark appointed Pepper Potts as the CEO of Stark Industries.
+            In 2012, Stark Industries opened a new base in New York City, building the Stark Tower, which was powered by a new prototype Arc Reactor inside the Tower. 
+            Potts also procured permits to build a Tower in Washington, D.C. Later that year, Happy Hogan was hired as head of security at Stark Industries Headquarters.</p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Services</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="arc_reactor.jpg" alt="ARC reactor" style="height: 300; width: 300px;" />
+              <div class="menu-details">
+                <h3 class="name">ARC reactor</h3>
+                <p class="text">The Arc Reactor is a power source designed by Howard Stark, Anton Vanko and Obadiah Stane to replicate the Tesseract's energy. 
+                  After the Tesseract's energy had been harnessed by HYDRA during World War II. 
+                  Stark and Vanko used his research on the Tesseract to create the Arc Reactor. The Arc Reactor remained generally inactive until Tony Stark was able to miniaturize it and power his Iron Man armors.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="bus.jpg" alt="CXD 23 Airborne Mobile Command Station" style="width: 400px; height: 300px;" />
+
+              <div class="menu-details">
+                <h3 class="name">CXD 23 Airborne Mobile Command Station</h3>
+                <p class="text">The CXD 23215 Airborne Mobile Command Station were specialized Boeing C-17 Globemaster III airplanes used by S.H.I.E.L.D. The planes were in heavy rotation from the 1980s to the 1990s until S.H.I.E.L.D. replaced them with Helicarriers. 
+                  Following the Battle of New York, one of these planes, officially designated as S.H.I.E.L.D. 6-1-6 and informally known as the Bus, was given to Phil Coulson by Nick Fury to serve as the flying command center for his team.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="Sonicfire.jpg" alt="Sonicfire" style="height: 300px; width: 300px;" />
+              <div class="menu-details">
+                <h3 class="name">Sonic Fire Extinguisher</h3>
+                <p class="text">The Sonic Fire Extinguisher was a new technology developed by Cordco prior to the Stark Expo following eight solid months of research and development. 
+                  Utilizing elements of the repulsor technology of the <b>Iron Man Armor: Mark IV</b> and the Stark Sonic Cannon, 
+                  the Sonic Fire Extinguisher utilized a military-grade sub-sonic blast at over 250 MPH for the safe and speedy extinguishing of out of control forest fires.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="redwing.jpg" alt="Redwing" style="height: 300px; width: 300px;" />
+              <div class="menu-details">
+                <h3 class="name">Stark Drone MK82 922 V 80Z V2 Prototype Unit V6</h3>
+                <p class="text">Redwing is a combat and reconnaissance drone used by Sam Wilson, outfitted into the EXO-7 Falcon. The original Redwing, officially designated as Stark Drone MK82 922 V 80Z V2 Prototype Unit V6,
+                was created by Stark Industries for Wilson after he became a member of the Avengers. Five years after the Infinity War, Wilson acquired a second Redwing drone,
+                although it was destroyed six months later. He was then given two new drones by the Wakandan Design Group.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="StarkHUD.jpg" alt="Stark HUD 2020" style="height: 200px; width: 500px;" />
+              <div class="menu-details">
+                <h3 class="name">Stark HUD 2020</h3>
+                <p class="text">The Stark HUD 2020 is a home-use version of the Heads Up Display technology utilized in Iron Man's helmet created by Stark-Fujikawa, a subsidiary of Stark Industries.
+                  The Stark HUD 2020 was developed by Stark-Fujikawa for use by the general public. It was a reversed-engineered version of the Heads Up Display (or "HUD") technology utilized by Iron Man in the helmet of his armor.
+                  With voice-activation, the Stark HUD 2020's many features include geo-location services and tourist information, weather and traffic updates, 
+                  social networking tools and applications, a mood-monitoring jukebox and even a matchmaker targeting app.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="varonica.jpg" alt="Stark Industries Satellite" style="height: 200px; width: 400px;" />
+              <div class="menu-details">
+                <h3 class="name">Stark Industries Satellite</h3>
+                <p class="text">The Stark Industries Satellite is a defense satellite designed by Stark Industries, several of which were installed in orbit as part of their global security network. 
+                  They carried a plethora of defense systems, including Veronica and the Stark Industries Combat Drones.
+                  The Avengers used one of these satellites at the end of the War on HYDRA, where J.A.R.V.I.S. provided an aerial view of the HYDRA Research Base that was run by Baron Strucker. This allowed the Avengers to gain a tactical advantage on their enemies, resulting in the successful retrieval of the Scepter in Strucker's possession. 
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <style>
+        h3 {
+          text-decoration: underline;
+        }
+      </style>
+      
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">About Us</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="Howard_Stark.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Haward Stark</h3>
+                  <i class="feedback">"Founder and CEO"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="tony_stark.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Tony Stark</h3>
+                  <i class="feedback">"CEO"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="Avenger.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Natalie Rushman</h3>
+                  <i class="feedback">"Assistant (undercover S.H.I.E.L.D. agent)"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="happy_hogan.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Happy Hogan</h3>
+                  <i class="feedback">"Head of Security"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="james_rhodes.jpg" alt="User" class="user-image" />
+                  <h3 class="name">James Rhodes</h3>
+                  <i class="feedback">"Military Liaison"</i>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="image.1.jpg" alt="Gallery Image" class="gallery-image"/>
+            </li>
+            <li class="gallery-item">
+              <img src="image.6.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="image.3.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="image.5.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="image.2.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="image.4.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>Los Angeles, California, North America</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@starkindustries.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(123) 456-78900</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Saturday: 10:00 AM - 3:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sunday: Closed</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.starkindustries.com</p>
+            </li>
+          </ul>
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Your name" class="form-input" required />
+            <input type="email" placeholder="Your email" class="form-input" required />
+            <textarea placeholder="Your message" class="form-input" required></textarea>
+            <button type="submit" class="button submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+      
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2025 Stark Industries</p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">privacy policy</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
